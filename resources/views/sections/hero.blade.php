@@ -1,27 +1,37 @@
-<section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
-    <div class="max-w-5xl mx-auto px-6 text-center">
+<!DOCTYPE html>
+<html>
 
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">
-            Learn GitHub Easily 🚀
-        </h1>
+<head>
+    <title>Tailwind + CSS Example</title>
 
-        <p class="text-lg mb-6">
-            Master commands, pull requests, and merging with simple examples.
-        </p>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-        <p class="text-lg mb-6">
-            Master commands, pull requests, and merging with simple examples.
-        </p>
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+</head>
 
-        <div class="space-x-4">
-            <a href="#" class="bg-white text-blue-600 px-6 py-2 rounded-lg font-semibold">
-                Get Started
-            </a>
+<body>
+    <section class="home">
+        <div class="max-w-5xl mx-auto px-6 text-left home-content">
+            <!-- Tailwind + custom CSS -->
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 custom-title text-white">
+                Hi, We are the IST Group
+            </h1>
+            <h3 class="text-2xl font-bold mb-4 custom-title text-white">
+                Sample Website
+            </h3>
 
-            <a href="#" class="border border-white px-6 py-2 rounded-lg">
-                Learn More
-            </a>
+            <p class="text-lg mb-6 custom-text text-white">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+
+            <div class="btn-box">
+                <a href="#">About us</a>
+                <a href="#">Hire us</a>
+            </div>
         </div>
+    </section>
+</body>
 
-    </div>
-</section>
+</html>
