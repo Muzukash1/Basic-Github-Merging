@@ -5,31 +5,12 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('About') }}</div>
+                <div class="card-header">{{ __('About Us') }}</div>
 
                 <div class="card-body">
-                    <p><strong>Welcome to our application!</strong></p>
-
-                    <p>
-                        Explore powerful and <strong>innovative features</strong> designed to make your experience
-                        <strong>smoother</strong>, <strong>faster</strong>, and more <strong>efficient</strong>.
-                    </p>
-
-                    <p>
-                        Our platform is built to help you <strong>work smarter</strong> and stay organized with ease.
-                        Whether you're managing tasks, handling data, or improving your workflow,
-                        everything is designed to keep things <strong>simple and effective</strong>.
-                    </p>
-
-                    <p>
-                        Discover tools that are <strong>intuitive</strong>, <strong>reliable</strong>, and
-                        crafted to give you a <strong>seamless experience</strong>.
-                    </p>
-
-                    <p>
-                        <strong>Stay tuned!</strong> We’re continuously improving and adding new features
-                        to keep your experience <strong>fresh, modern, and powerful</strong>.
-                    </p>
+                    <p>Welcome to our application!</p>
+                    <p>This is the about page where you can learn more about us.</p>
+                    <p>We are dedicated to providing the best service to our users.</p>
                 </div>
             </div>
         </div>
