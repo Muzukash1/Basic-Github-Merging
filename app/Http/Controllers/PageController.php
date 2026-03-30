@@ -23,6 +23,17 @@ class PageController extends Controller
 
     public function contact()
     {
-        return view('contact');
+        return view('sections.contact');
+    }
+
+    public function submitContact(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string|max:1000',
+        ]);
+
+        return redirect()->route('contact')->with('success', 'Thank you for your message! I\'ll get back to you soon.');
     }
 }
