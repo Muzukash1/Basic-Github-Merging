@@ -10,6 +10,7 @@
                 <div class="card-body">
                     <p>Welcome to our application!</p>
                     <p>This is the about page where you can learn more about us.</p>
+                    <p>We are dedicated to providing the best service to our users.</p>
                 </div>
             </div>
         </div>
