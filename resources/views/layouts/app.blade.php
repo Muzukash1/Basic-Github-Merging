@@ -15,6 +15,63 @@
     </main>
 
     @include('partials.footer')
+<script>
+    const toggle = document.getElementById('theme-toggle');
+    const dot = document.getElementById('toggle-dot');
 
+    // Load saved theme
+    if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+        toggle.checked = true;
+        dot.style.transform = 'translateX(100%)';
+    }
+
+    toggle.addEventListener('change', () => {
+        if (toggle.checked) {
+            document.documentElement.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+            dot.style.transform = 'translateX(100%)';
+        } else {
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+            dot.style.transform = 'translateX(0)';
+        }
+    });
+
+    <script>
+const words = ["Web Development", "UI/UX Design", "System Solutions", "Modern Apps"];
+let i = 0;
+let j = 0;
+let currentWord = "";
+let isDeleting = false;
+
+function type() {
+    currentWord = words[i];
+    
+    if (isDeleting) {
+        j--;
+    } else {
+        j++;
+    }
+
+    document.getElementById("typed").textContent = currentWord.substring(0, j);
+
+    if (!isDeleting && j === currentWord.length) {
+        isDeleting = true;
+        setTimeout(type, 1000);
+        return;
+    }
+
+    if (isDeleting && j === 0) {
+        isDeleting = false;
+        i = (i + 1) % words.length;
+    }
+
+    setTimeout(type, isDeleting ? 50 : 100);
+}
+
+type();
+</script>
+</script>
 </body>
 </html>
