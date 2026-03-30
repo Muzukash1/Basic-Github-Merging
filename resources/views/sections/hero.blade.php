@@ -1,9 +1,13 @@
 <section class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-20">
     <div class="max-w-5xl mx-auto px-6 text-center">
-        
+
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
             Learn GitHub Easily 🚀
         </h1>
+
+        <p class="text-lg mb-6">
+            Master commands, pull requests, and merging with simple examples.
+        </p>
 
         <p class="text-lg mb-6">
             Master commands, pull requests, and merging with simple examples.
