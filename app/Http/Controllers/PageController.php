@@ -18,7 +18,7 @@ class PageController extends Controller
 
     public function feature()
     {
-        return view('feature');
+        return view('sections.feature');
     }
 
     public function contact()
