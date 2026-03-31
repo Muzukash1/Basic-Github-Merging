@@ -77,7 +77,7 @@
                 <!-- Submit Button -->
                 <button 
                     type="submit"
-                    class="w-full bg-gray-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                    class="w-full bg-red-600 text-black font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-200"
                 >
                     Send
                 </button>
